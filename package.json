@@ -1,0 +1,23 @@
+{
+  "name": "pwa-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "dev": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MathiasGR27/pwa-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MathiasGR27/pwa-boilerplate/issues"
+  },
+  "homepage": "https://github.com/MathiasGR27/pwa-boilerplate#readme",
+  "description": "",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
