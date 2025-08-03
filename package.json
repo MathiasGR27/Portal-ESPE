@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "dev": "live-server"
+  "dev": "live-server",
+  "lint": "eslint .",
+  "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,11 @@
   "homepage": "https://github.com/MathiasGR27/pwa-boilerplate#readme",
   "description": "",
   "devDependencies": {
-    "live-server": "^1.2.2"
+    "@eslint/js": "^9.32.0",
+    "eslint": "^9.32.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^16.3.0",
+    "live-server": "^1.2.2",
+    "prettier": "^3.6.2"
   }
 }
