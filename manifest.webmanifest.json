@@ -1,8 +1,8 @@
 {
   "lang": "es",
-  "short_name": "Portal Espe MG",
-  "name": "Portal Espe MG SD",
-  "description": "Aplicacion que permite mostrar informacion de la Universidad de la Fuerza Armada ESPE",
+  "short_name": "PORTAL ESPE MG",
+  "name": "PORTAL ESPE MG SD",
+  "description": "Aplicacion para la informacion de la ESPE Sede Matriz Guayaquil",
   "background_color": "#1a4d80",
   "theme_color": "#1a4d80",
   "orientation": "portrait",
@@ -10,20 +10,20 @@
   "start_url": ".",
   "scope": ".",
   "icons": [{
-      "src": "src/images/icons/144x144.png",
+      "src": "src/assets/icons/144x144.png",
       "sizes": "144x144",
       "type": "image/png"
     }, {
-      "src": "src/images/icons/192x192.png",
+      "src": "src/assets/icons/144x144.png",
       "sizes": "192x192"
     }, {
-      "src": "src/images/icons/256x256.png",
+      "src": "src/assets/icons/144x144.png",
       "sizes": "256x256"
     } ,{
-      "src": "src/images/icons/384x384.png",
+     "src": "src/assets/icons/144x144.png",
       "sizes": "384x384"
     }, {
-        "src": "src/images/icons/512x512.png",
+        "src": "src/assets/icons/144x144.png",
         "sizes": "512x512"
     }]
 }
