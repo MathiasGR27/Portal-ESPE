@@ -23,30 +23,6 @@ Este proyecto implementa una PWA con funcionalidades de:
 
 ---
 
-## Estructura del proyecto
-
-/src
-/css
-app.css
-/js
-app.js
-/images
-/icons
-144x144.png
-192x192.png
-256x256.png
-384x384.png
-512x512.png
-sw.js
-manifest.json
-index.html
-
-yaml
-Copiar
-Editar
-
----
-
 ## Cómo usar
 
 1. Servir la aplicación en un servidor local o remoto (no funciona solo con abrir archivos localmente).
