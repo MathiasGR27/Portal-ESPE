@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/app.css" />
+    <script src="./src/js/app.js"></script>
+    <title>Document</title>
+    <meta name="theme-color" content="#1a4d80" />
+    <link rel="icon" type="images/png" href="./src/images/icons/144x144.png" sizes="144x144">
+    <!-- Startup configuration -->
+    <link rel="manifest" href="./manifest.webmanifest.json">
+    <script async src="https://unpkg.com/pwacompat" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.green-amber.min.css" />
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</head>
+
+<body>
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header mdl-color--primary">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title mdl-color-text--white">Portal Espe MG</span>
+                <div class="mdl-layout-spacer"></div>
+                <nav class="mdl-navigation mdl-layout--large-screen-only">
+                    <a class="mdl-navigation__link mdl-color-text--white" href="./index.html">Página Principal</a>
+                    <a class="mdl-navigation__link mdl-color-text--white" href="./sobreespe.html">Sobre la ESPE</a>
+                    <a class="mdl-navigation__link mdl-color-text--white" href="./ProcesoAdminision.html">Proceso de
+                        Admisión</a>
+                    <a class="mdl-navigation__link mdl-color-text--white" href="./Contacto.html">Contacto</a>
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <!-- <span class="mdl-layout-title">ESPENotes</span> -->
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="./index.html">
+                    <i class="material-icons mdl-color-text--primary">home</i>
+                    Página Principal
+                </a>
+                <a class="mdl-navigation__link" href="./sobreespe.html">
+                    <i class="material-icons mdl-color-text--primary">info</i>
+                    Sobre la ESPE
+                </a>
+                <a class="mdl-navigation__link" href="./OfertaAcademica.html">
+                    <i class="material-icons mdl-color-text--primary">school</i>
+                    Oferta Académica
+                </a>
+                <a class="mdl-navigation__link" href="./ProcesoAdminision.html">
+                    <i class="material-icons mdl-color-text--primary">assignment</i>
+                    Proceso de Admisión
+                </a>
+                <a class="mdl-navigation__link" href="./Contacto.html">
+                    <i class="material-icons mdl-color-text--primary">contact_mail</i>
+                    Contacto
+                </a>
+                <div class="mdl-navigation__link app--install" id="banner-install">
+                    <i class="material-icons mdl-color-text--primary">app_settings_alt</i>
+                    Instalar App
+                </div>
+            </nav>
+
+        </div>
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                <section class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--12-col mdl-shadow--2dp mdl-color--white"
+                        style="text-align:center; padding: 40px;">
+                        <h2 class="mdl-color-text--primary">Proceso de Admisión - ESPE</h2>
+                        <p>A continuación se detallan las etapas del proceso propio de admisión en la Universidad de las
+                            Fuerzas Armadas – ESPE.</p>
+                    </div>
+                </section>
+
+                <!-- Etapas del Proceso -->
+                <section class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--4-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-color--blue-700 mdl-color-text--white">
+                            <h2 class="mdl-card__title-text">1. Registro Nacional</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            Completa el Registro Único de SENESCYT como requisito obligatorio para acceder al proceso
+                            institucional de admisión. :contentReference[oaicite:0]{index=0}
+                        </div>
+                    </div>
+
+                    <div class="mdl-cell mdl-cell--4-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-color--blue-700 mdl-color-text--white">
+                            <h2 class="mdl-card__title-text">2. Inscripción</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            Ingresa al módulo de admisiones de la ESPE, crea tu cuenta con cédula y activa tu perfil
+                            para iniciar el proceso. :contentReference[oaicite:1]{index=1}
+                        </div>
+                    </div>
+
+                    <div class="mdl-cell mdl-cell--4-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-color--blue-700 mdl-color-text--white">
+                            <h2 class="mdl-card__title-text">3. Evaluación</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            Rinde el test psicométrico en línea y el examen de conocimientos presencial, según
+                            indicaciones de la universidad. :contentReference[oaicite:2]{index=2}
+                        </div>
+                    </div>
+
+                    <div class="mdl-cell mdl-cell--4-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-color--blue-700 mdl-color-text--white">
+                            <h2 class="mdl-card__title-text">4. Postulación</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            Postula a hasta tres carreras dentro de tu grupo, ordenadas por prioridad. La nota se
+                            calcula con un 50% de antecedentes académicos y 50% de evaluación.
+                            :contentReference[oaicite:3]{index=3}
+                        </div>
+                    </div>
+
+                    <div class="mdl-cell mdl-cell--4-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-color--blue-700 mdl-color-text--white">
+                            <h2 class="mdl-card__title-text">5. Aceptación</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            Revisa tu correo y perfil; acepta el cupo asignado y completa el proceso para la matrícula.
+                            :contentReference[oaicite:4]{index=4}
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Cronograma destacado -->
+                <section class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--12-col mdl-shadow--2dp mdl-color--green-100"
+                        style="padding: 20px; text-align: center;">
+                        <h4>Fechas clave (Periodo Académico 2025)</h4>
+                        <ul style="list-style-type:none; padding:0;">
+                            <li><strong>Registro Nacional:</strong> 26 sep – 1 oct</li>
+                            <li><strong>Inscripción:</strong> 17 – 19 oct</li>
+                            <li><strong>Evaluación presencial:</strong> 12 – 14 nov</li>
+                        </ul>
+                        <p>Para más detalles del cronograma, revisa los canales oficiales.</p>
+                    </div>
+                </section>
+
+            </div>
+        </main>
+
+    </div>
+</body>
+
+</html>
